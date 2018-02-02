@@ -93,6 +93,7 @@
             this.uxSell.TabIndex = 65;
             this.uxSell.Text = "Sell";
             this.uxSell.UseVisualStyleBackColor = true;
+            this.uxSell.Click += new System.EventHandler(this.uxSell_Click);
             // 
             // uxBuy
             // 
@@ -103,6 +104,7 @@
             this.uxBuy.TabIndex = 64;
             this.uxBuy.Text = "Buy";
             this.uxBuy.UseVisualStyleBackColor = true;
+            this.uxBuy.Click += new System.EventHandler(this.uxBuy_Click);
             // 
             // uxCost
             // 
